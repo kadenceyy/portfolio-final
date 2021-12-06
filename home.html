@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" href="images/favicon.ico">
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-FYZ1VVS9CZ"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+		gtag('config', 'G-FYZ1VVS9CZ');
+	</script>
+	<a class="skip" href="#skip">Skip to Main Content</a>
+	<link rel="shortcut icon" href="images/Wellness logo-10-10 copy.png">
+	<link rel="stylesheet" type="text/css" href="css/html5reset.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;300;400&display=swap" rel="stylesheet">	
+	<title>Welcome to Wellness Farm</title>
+</head>
+<body>
+	<header>
+		<a href="home.html" class="active"><img src="images/Wellness logo-10-10.png" width="25" alt="Wellness Universe Logo"></a>
+		<nav>
+			<ul class="nav_links">
+				<li class="nav_item"><a class = "bgchange" href = "home.html">Home</a></li>
+				<li class="nav_item"><a href= "activities.html">Activities</a></li>
+				<li class="nav_item"><a href= "resources.html">Resources</a></li>
+				<li class="nav_item"><a href= "contact.html">Contact</a></li>
+			</ul>
+		</nav>	
+	</header>
+	<main class="container" id="skip">
+		<h1>Welcome to Wellness Farm!</h1>
+		<div class="puffer">
+			<img src="images/puffer.png" alt="puffer fish cartoon"/>
+		</div>
+		<h2 id = "content">Discover You.</h2>
+		<!-- <p>Some text about us.</p> -->
+		<button class="openChatBtn" onclick="openForm()"><img src="images/Chat-01.png" alt="chatbox icon" style="width:50px;height:50px;"></button>
+		<div class="openChat">
+			<form class="form-all" action = "https://formspree.io/f/xqkwvrqr" method="POST">
+			<button type="button" class="btn_close" onclick="closeForm()"><img src="images/cross-01.png" alt="close pop out" ></button>
+			<h1>Hello!</h1>
+			<label for="fname">Name*</label>
+			<input type="text" id="fname" name="firstname" required placeholder="First name">
+			<label for="email">Email*</label>
+			<input type="text" id="email" name="email" required placeholder="Your Email">
+			<label for="subject">Message</label>
+			<textarea id="subject" name="subject" required placeholder="Something you want to share..." ></textarea>
+			<!-- <label for="msg"><b>Message</b></label>
+			<textarea placeholder="Tell us more..." name="msg" required></textarea> -->
+			<input type="submit" value="Submit">
+			</form>
+		</div>
+		<div class="about-text-block">
+			<a id="about"></a>
+			
+			<!-- <header><h3>Discover more:</h3></header> -->
+			<p>Hello, nice to meet you! I’m Puffy from Wellness Farm. Are you feeling overwhelmed by your hectic schedule and want to take a moment to indulge in some self-care? You've come to the right place! The animals on our farm are eager to see you. Come visit our magical farm anytime, anywhere. Remember: You can't enjoy wealth if you're not in good health.</p>
+		</div>
+		<div class="parallax">
+			<!-- <p>Find your inner peace! </p> -->
+		</div>
+		
+		<div class="tiger">
+			<img src="images/tiger.png" alt="wellness image"/>
+		</div>
+
+		<div class="activities-page">
+			<a id="activities"></a>
+			<h3><a href= "activities.html">Fun Activities</a></h3>
+			<p>Find fun outdoor activities around Ann Arbor! There are so many things out there waiting for you to discover! We have apple picking, pumpkin carving, painting and even animal feeding sessions at the Wellness Farm. You can also let us know what fascinates and excites you! We can do anything under the sun. Sign up for an event now! We are so excited to meet you!</p>
+		</div>
+		<div class="parallax-second">
+		</div>
+		<div class="rabbit">
+			<img src="images/rabbit.png" alt="cute cheering cow image"/>
+		</div>
+
+		<div class="resources-page">
+			<a id="resources"></a>
+			<h3><a href= "resources.html">Carrots for the Soul</a></h3>
+			<p>"Everybody makes mistakes. Everybody has those days (Oh yeah!)" Relaxing and meditating are the best remedies for gloomy days. Take a few minutes to get in the zone! Stop for a moment and look out the window, enjoy the sun and the breeze. We're sure the carrots will do the trick.   </p>
+		</div>
+		<script src="js/script.js"></script>
+	</main>
+		<footer>
+			<p class="email"><a href = "mailto: kadence@umich.edu">wellnessfarm@umich.edu</a></p>
+			<p>Kadence T. &copy; 2021</p>
+		</footer>
+	</body>
+</html>

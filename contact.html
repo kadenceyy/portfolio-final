@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" href="images/favicon.ico">
+	<a class="skip" href="#skip">Skip to Main Content</a>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-FYZ1VVS9CZ"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+		gtag('config', 'G-FYZ1VVS9CZ');
+	</script>
+	<link rel="shortcut icon" type="image/png" href="images/favicon.ico">
+	<link rel="stylesheet" type="text/css" href="css/html5reset.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;300;400&display=swap" rel="stylesheet">	
+	<title>Contact Wellness Farm Form</title>
+</head>
+<body>
+	<header>
+		<a href="home.html" class ="active"><img src="images/Wellness logo-10-10.png" width="25" alt="Wellness Farm Logo"></a>
+		<nav>
+			<ul class="nav_links">
+				<li class="nav_item"><a href = "home.html">Home</a></li>
+				<li class="nav_item"><a href= "activities.html">Activities</a></li>
+				<li class="nav_item"><a href= "resources.html">Resources</a></li>
+				<li class="nav_item"><a class = "bgchange" href= "contact.html">Contact</a></li>
+			</ul>
+		</nav>	
+	</header>
+
+	<main class="container-contact" id="skip">
+		<h1>Contact Us</h1>
+			<p>Urgent/Crisis Support 24/7</p><a href="tel:734-764-8312 ">Call Us Now!</a>
+		<h2 id = "about">Leave us a Message:</h2>
+		
+		<div class="contact-form">
+			<form action = "https://formspree.io/f/xqkwvrqr" method="POST">
+		  
+			  <label for="fname">Name*</label>
+			  <input type="text" id="fname" name="firstname" required placeholder="First name">
+
+			  <label for="email">Email*</label>
+			  <input type="text" id="email" name="email" required placeholder="Your Email">
+		  
+			  <label for="inquiry">Inquiry</label>
+			  <select id="inquiry" name="inquiry">
+				<option value="speak to someone">Chat with us</option>
+				<option value="events">Events</option>
+				<option value="meditation">Meditation Sessions</option>
+			  </select>
+		  
+			  <label for="subject">Hi, I am...</label>
+			  <textarea id="subject" name="subject" required placeholder="Something you want to share..." style="height:200px"></textarea>
+			  
+			  <label for="checkbox">Remember me</label>
+    			<input type="checkbox" id="checkbox"> 
+
+			  <input type="submit" value="Submit">
+			  
+			</form>
+			<div class="swan-content">
+				<img src="images/swan.png" alt="cute encouraging swan cartoon"/>
+			</div>
+		  </div>
+		</main>
+		<footer>
+			<p class="email"><a class= "emaillink" href = "mailto: kadence@umich.edu">wellnessfarm@umich.edu</a></p>
+			<p>Kadence T. &copy; 2021</p>
+		</footer>
+	</body>
+</html>
